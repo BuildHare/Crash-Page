@@ -1,0 +1,24 @@
+/* Take it steady */
+/* You will get there */
+.top {
+    display:flex;
+    background-color: #1F2937;
+    color: white;
+}
+.nav {
+   display:flex; 
+   
+}
+ul {
+    list-style-type: none;
+    display:flex;
+    margin:0;
+    padding:0;
+    gap:16px;
+}
+.middle {
+
+}
+.bottom {
+    background-color:#E5E7EB;
+}
