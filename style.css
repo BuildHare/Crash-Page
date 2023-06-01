@@ -21,6 +21,7 @@ h1 {
    display:block; 
    justify-content:flex-end;
    margin-bottom:100px;
+   padding:10px;
 }
 .logo {
     display:flex;
@@ -56,7 +57,7 @@ button {
     border-radius:25px;
     padding:10px;
     width:100px;
-    
+        
 }
 /*you had just added nav bar to top via margin-bottom */
 .middle {
@@ -92,7 +93,7 @@ h2 {
     background-color:#E5E7EB;
     font-size:36px;
     padding:200px;
-    
+    margin-bottom:200px;
     
 }
 .Thor {
@@ -101,4 +102,26 @@ h2 {
     justify-content:end;
     font-weight:bold;
 }
-
+/*onwards to the call to action! */
+.action{ 
+    background-color:#3882F6;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    padding:50px;
+    margin:100px;
+    border-radius:25px;
+}
+.actiontext {
+    color: #E5E7EB;
+}
+/*the footer is near!*/
+footer {
+    background-color: #1F2937;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:25px;
+    margin:-50px;
+    color: #E5E7EB;
+}
